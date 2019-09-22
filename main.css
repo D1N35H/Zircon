@@ -1,0 +1,199 @@
+﻿body {   
+  background: url('resources/images/background.jpg');
+  background-size: cover;
+  font-family:'Ubuntu';
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+.logo-center {
+	padding-top:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+#title {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 40px;
+	color: #eff0f1;
+    text-align: center;
+}
+
+#description {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	color: lightgrey;
+    text-align: center;
+    padding-bottom:30px;
+}
+
+#buttons {
+	text-align:center;
+}
+
+
+.button-design {
+/* Rounded Buttons */
+ 	display:inline-block;
+	border-radius:10px;
+	background-color:#FE2B55;
+	
+	cursor:pointer;
+	color:white;
+	font-family:Roboto;
+	font-size:20px;
+	text-decoration: none;
+
+	padding:10px 80px;
+	margin-left: auto;
+    margin-right: auto;	
+}
+
+.button-design:hover {
+    background-color: #BE0201;
+}
+
+.resetbutton-design {
+ /* Rounded Buttons */
+ 	display:inline-block;
+	border-radius:15px;
+	background-color:#2592EC;
+	
+	cursor:pointer;
+	color:white;
+	font-family:Roboto;
+	font-size:20px;
+	text-decoration: none;
+
+	padding:10px 80px;
+	float:left;
+	margin:-30px;
+	
+	width:250px;
+	height:auto;
+}
+
+.resetbutton-design:hover{
+background-color:#1F407B;
+}
+
+.registerbutton-design {
+ /* Rounded Buttons */
+ 	display:inline-block;
+	border-radius:15px;
+	background-color:#49AA50;
+	
+	cursor:pointer;
+	color:white;
+	font-family:Roboto;
+	font-size:20px;
+	text-decoration: none;
+
+	padding:10px 80px;
+	float:right;
+	margin:-30px;
+	
+	width:250px;
+	height:auto;
+}
+
+.registerbutton-design:hover{
+background-color:#086524;
+}
+
+
+.transbox {
+	width:55%;
+	display:block;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    opacity: 0.98;
+    padding: 35px;
+    
+    margin-left: auto;
+    margin-right: auto;	
+}
+
+#footer {
+	text-align: center;
+	position: absolute; bottom:20px; width:99%;
+	font-family: 'Lato', sans-serif;
+	font-size:15px;
+	color:#EEEFF0;
+}
+
+#auth-heading{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 100px;
+	color: #eff0f1;
+	margin-left: auto;
+    margin-right: auto;	
+    text-align:center;
+	
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000; 
+}
+
+#auth-title{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 33px;
+	color: #eff0f1;
+    text-align: center;
+}
+
+#form-styling{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/* Dropdown */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.usernameerr-block{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #ff0000;
+}
+
+.passworderr-block{
+  position:relative;
+  display: block;
+  top: -35px;
+  color: #ff0000;
+}
+

@@ -1,0 +1,128 @@
+﻿h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 30px;
+	color: #eff0f1;
+	margin-left: auto;
+  margin-right: auto;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	color: white;
+	border-bottom: 2px solid white;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:50px;
+	text-align:center;
+
+	text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+}
+
+body {
+  background-color:#222222;
+  background-size: cover;
+  font-family:'Ubuntu';
+}
+
+label {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 30px;
+	color: black;
+	margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+#auth-heading{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 75px;
+	color: #eff0f1;
+	margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+
+	text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.form-control{
+	font-size:22px;
+}
+
+.resetbutton-design {
+	background-color:#2592EC;
+
+	cursor:pointer;
+	color:white;
+	font-family:Roboto;
+	font-size:15px;
+	text-decoration: none;
+
+	padding:10px 80px;
+	float:left;
+
+	width:250px;
+	height:auto;
+}
+
+.registerbutton-design {
+	background-color:#49AA50;
+	cursor:pointer;
+	color:white;
+	font-family:Roboto;
+	font-size:15px;
+	text-decoration: none;
+
+	padding:10px 80px;
+	margin-left:16px;
+	width:250px;
+	height:auto;
+}
+
+.registerbutton-design:hover{
+background-color:#086524;
+}
+
+
+/* Dropdown */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #555;
+}
+
+.active {
+  background-color: #FD2B54;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.help-block{
+	color:red;
+}
